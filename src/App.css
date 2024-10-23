@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif; /* Chọn font cho toàn bộ ứng dụng */
+  margin: 0; /* Xóa margin mặc định của trình duyệt */
+  padding: 0; /* Xóa padding mặc định của trình duyệt */
+  background-color: #f0f0f0; /* Màu nền của trang */
+}
+
+h1 {
+
+  text-align:center; 
+  color: #333; /* Màu chữ cho tiêu đề */
+  margin-top: 20px; /* Khoảng cách phía trên tiêu đề */
+}
+
+.slideshow-container {
+  display: flex;
+  flex-direction: column; /* Đặt hình ảnh và nút theo chiều dọc */
+  align-items: center; /* Canh giữa hình ảnh và nút */
+  margin: 20px auto; /* Tạo khoảng cách cho slideshow */
+  padding: 10px;
+  border-radius: 8px; /* Bo góc cho khung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho khung */
+  background-color: rgb(194, 249, 254); /* Màu nền trắng cho khung */
+}
+
+.button-pink {
+  background-color: #677fec; /* Màu nền cho nút */
+  border: none; /* Không có đường viền */
+  color: white; /* Màu chữ cho nút */
+  padding: 10px 15px; /* Khoảng cách bên trong nút */
+  margin: 5px; /* Khoảng cách giữa các nút */
+  cursor: pointer; /* Hiển thị con trỏ tay khi di chuột qua */
+  border-radius: 5px; /* Bo góc cho nút */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+}
+
+.button-pink:hover {
+  background-color: #c20303; /* Màu nền khi hover */
+}
+
+.image-info {
+  margin: 10px 0; /* Khoảng cách giữa hình ảnh và thông tin */
+}
