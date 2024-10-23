@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bai-tap/static/css/main.f6f0f574.css",
+    "main.js": "/bai-tap/static/js/main.b89959f7.js",
+    "index.html": "/bai-tap/index.html",
+    "main.f6f0f574.css.map": "/bai-tap/static/css/main.f6f0f574.css.map",
+    "main.b89959f7.js.map": "/bai-tap/static/js/main.b89959f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6f0f574.css",
+    "static/js/main.b89959f7.js"
+  ]
+}
